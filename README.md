@@ -25,6 +25,8 @@ description: A complete ToDo app with C# API and Azure SQL database for storage.
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/azure-samples/todo-csharp-sql)
 [![Open in Dev Container](https://img.shields.io/static/v1?style=for-the-badge&label=Dev+Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/todo-csharp-sql)
 
+> **Note:** This application is currently a Proof of Concept (POC) project. If you're using Azure for Startups program, please note that continued participation and tier advancement requires ongoing project development and engagement with the program requirements.
+
 A blueprint for getting a React web app with a C# API and a SQL database running on Azure. The blueprint includes sample application code (a ToDo web app) which can be removed and replaced with your own application code. Add your own source code and leverage the Infrastructure as Code assets (written in Bicep) to get up and running quickly.
 
 Let's jump in and get this up and running in Azure. When you are finished, you will have a fully functional web app deployed to the cloud. In later steps, you'll see how to setup a pipeline and monitor the application.
@@ -73,6 +75,17 @@ Here's a high level architecture diagram that illustrates these components. Noti
 
 ### Cost of provisioning and deploying this template
 This template provisions resources to an Azure subscription that you will select upon provisioning them. Refer to the [Pricing calculator for Microsoft Azure](https://azure.microsoft.com/pricing/calculator/) to estimate the cost you might incur when this template is running on Azure and, if needed, update the included Azure resource definitions found in `infra/main.bicep` to suit your needs.
+
+### Azure for Startups Program
+
+If you're using this POC as part of the Azure for Startups program, please be aware of the following requirements to maintain your benefits and advance through program tiers:
+
+- **Active Development**: Continue developing your project beyond the POC stage to demonstrate progress and commitment
+- **Program Engagement**: Regularly engage with Azure for Startups program resources and support
+- **Tier Advancement**: To advance to higher tiers and unlock additional benefits, you'll need to show continued project development and meet program-specific milestones
+- **Resource Optimization**: As you progress, optimize your Azure resource usage to align with your tier benefits and application needs
+
+For more information about the Azure for Startups program and tier requirements, visit the [Microsoft for Startups](https://www.microsoft.com/startups) portal or contact your program representative.
 
 ### Application Code
 
